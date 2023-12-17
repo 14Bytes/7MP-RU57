@@ -1,3 +1,7 @@
+mod utils;
+
+use crate::utils::grep::grep;
+
 fn main() {
-    println!("Hello, world!");
+    grep();
 }
